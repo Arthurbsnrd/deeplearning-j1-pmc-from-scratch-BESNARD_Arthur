@@ -47,5 +47,12 @@ Ce dépôt contient l'implémentation d'un Perceptron Multicouche (PMC) construi
 - [x] Sweet spot identifié (1e-3), pathologies des extrêmes documentées
 - [x] Courbe val_loss superposée en échelle log (phase7_lr_curve.png)
 
+### Phase 8 : Pipeline personnel (Breast Cancer)
+- [x] Chargement sklearn, split 80/20, StandardScaler (fit sur train uniquement)
+- [x] Réseau numpy 30→16→8→1 (He, ReLU, sigmoid, 200 epochs, backprop manuelle)
+- [x] Même architecture Keras (Adam, 50 epochs, binary_crossentropy)
+- [x] Tableau comparatif + graphique (phase8_comparaison.png)
+- [x] Test hors distribution (valeurs extrêmes) documenté
+
 ---
 *Ce README sera mis à jour à chaque phase du projet.*
