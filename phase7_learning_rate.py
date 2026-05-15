@@ -57,7 +57,7 @@ for lr, label in zip(learning_rates, lr_labels):
     })
     histories[label] = val_losses
 
-# Cas limite lr=1e-7 : delta loss epoch 1 → 10 quasi nul (apprentissage trop lent)
+# Cas limite lr=1e-7 : delta loss epoch 1 -> 10 quasi nul (apprentissage trop lent)
 r_small = next(r for r in results if r['lr'] == 1e-7)
 delta_loss = r_small['val_losses'][0] - r_small['val_losses'][-1]
 print(f"\n[lr=1e-7] Delta val_loss (epoch 1 -> 10) : {delta_loss:.6f}")
