@@ -35,5 +35,11 @@ Ce dépôt contient l'implémentation d'un Perceptron Multicouche (PMC) construi
 - [x] Courbes loss/accuracy train vs val (phase5_mnist_curves.png)
 - [x] Comparaison numpy from-scratch vs Keras (même logique, code réduit)
 
+### Phase 6 : Comparaison des fonctions d'activation
+- [x] Même architecture (128-64-10), Adam lr=0.001, 10 epochs sur MNIST
+- [x] Comparaison sigmoid / tanh / relu (seed=42 pour équité)
+- [x] Tableau : val loss, test accuracy, epoch de convergence (val_loss < 0.1), temps
+- [x] Courbe val_loss superposée (phase6_activations_curve.png)
+
 ---
 *Ce README sera mis à jour à chaque phase du projet.*
