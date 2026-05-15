@@ -16,5 +16,10 @@ Ce dépôt contient l'implémentation d'un Perceptron Multicouche (PMC) construi
 - [x] Mise à jour des poids avec la descente de gradient manuelle
 - [x] Tracé et sauvegarde de la courbe de convergence de la loss
 
+### Phase 3 : XOR, réseau 2-2-1, décision non linéaire
+- [x] Implémentation du réseau 2-2-1
+- [x] Entraînement jusqu'à 100% d'accuracy
+- [x] Tracé de la frontière de décision (phase3_xor_boundary.png)
+
 ---
 *Ce README sera mis à jour à chaque phase du projet.*
