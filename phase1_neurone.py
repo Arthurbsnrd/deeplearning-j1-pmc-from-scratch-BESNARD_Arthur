@@ -22,7 +22,6 @@ def compute_loss(y_true, y_pred):
     y_pred = np.clip(y_pred, 1e-7, 1 - 1e-7)
     return -np.mean(y_true * np.log(y_pred) + (1 - y_true) * np.log(1 - y_pred))
 
-# Poids fixés — pas encore d'entraînement dans cette phase
 w = np.array([0.5, -0.3])
 b = 0.1
 
