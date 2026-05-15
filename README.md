@@ -21,5 +21,12 @@ Ce dépôt contient l'implémentation d'un Perceptron Multicouche (PMC) construi
 - [x] Entraînement jusqu'à 100% d'accuracy
 - [x] Tracé de la frontière de décision (phase3_xor_boundary.png)
 
+### Phase 4 : Spirale, réseau profond ReLU
+- [x] Génération du dataset spirale (400 points, bruit 0.15)
+- [x] Réseau 2-64-64-1 avec ReLU (couches cachées) et sigmoid (sortie)
+- [x] Backpropagation manuelle sur 3 couches
+- [x] Entraînement jusqu'à 100% d'accuracy
+- [x] Frontière de décision et courbe de loss (phase4_spirale.png)
+
 ---
 *Ce README sera mis à jour à chaque phase du projet.*
