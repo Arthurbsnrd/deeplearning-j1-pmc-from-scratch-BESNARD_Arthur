@@ -41,5 +41,11 @@ Ce dépôt contient l'implémentation d'un Perceptron Multicouche (PMC) construi
 - [x] Tableau : val loss, test accuracy, epoch de convergence (val_loss < 0.1), temps
 - [x] Courbe val_loss superposée (phase6_activations_curve.png)
 
+### Phase 7 : Variation du learning rate
+- [x] Comparaison lr = 1e-7 / 1e-3 / 1.0 (Adam, ReLU, 10 epochs, seed=42)
+- [x] Tableau comparatif : val loss, test accuracy, temps
+- [x] Sweet spot identifié (1e-3), pathologies des extrêmes documentées
+- [x] Courbe val_loss superposée en échelle log (phase7_lr_curve.png)
+
 ---
 *Ce README sera mis à jour à chaque phase du projet.*
