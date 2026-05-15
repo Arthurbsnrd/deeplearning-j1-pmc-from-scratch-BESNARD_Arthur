@@ -28,5 +28,12 @@ Ce dépôt contient l'implémentation d'un Perceptron Multicouche (PMC) construi
 - [x] Entraînement jusqu'à 100% d'accuracy
 - [x] Frontière de décision et courbe de loss (phase4_spirale.png)
 
+### Phase 5 : Keras sur MNIST (flatten)
+- [x] Chargement et preprocessing MNIST (784 features, normalisation 0-1)
+- [x] PMC Keras : Dense(128, relu) → Dense(64, relu) → Dense(10, softmax)
+- [x] Entraînement Adam, 5 epochs, batch_size=64, val_accuracy > 97%
+- [x] Courbes loss/accuracy train vs val (phase5_mnist_curves.png)
+- [x] Comparaison numpy from-scratch vs Keras (même logique, code réduit)
+
 ---
 *Ce README sera mis à jour à chaque phase du projet.*
